@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tao Chen | Economics PhD Candidate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-name">Tao Chen</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#teaching">Teaching</a>
+                <a href="CV_Tao_Chen.pdf" target="_blank">CV</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <!-- Replace with your photo: <img src="photo.jpg" alt="Tao Chen"> -->
+                        <span>Photo</span>
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <h1>Tao Chen</h1>
+                    <p class="title">PhD Candidate in Economics</p>
+                    <p class="affiliation">University at Albany, SUNY</p>
+                    <p class="status">On the Job Market 2025-2026</p>
+                    <div class="contact-info">
+                        <p><a href="mailto:tchen5@albany.edu">tchen5@albany.edu</a></p>
+                        <p>Catskill 399, 1400 Washington Avenue, Albany, NY 12222</p>
+                    </div>
+                    <div class="hero-links">
+                        <a href="CV_Tao_Chen.pdf" class="btn" target="_blank">Download CV</a>
+                        <a href="#research" class="btn btn-outline">View Research</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About</h2>
+                <div class="about-content">
+                    <p>I am a PhD candidate in Economics at the University at Albany, SUNY, expecting to graduate in July 2026. My research develops econometric methods for analyzing time-varying economic relationships, with applications to macroeconomic forecasting and financial risk assessment.</p>
+                    
+                    <p>My job market paper (with Zhongwen Liang) proposes a time-varying model averaging approach for quantile regression that adapts to changing economic conditions. I also collaborate with Kajal Lahiri on translating PMI business surveys into practical forecasting tools.</p>
+
+                    <div class="research-interests">
+                        <h3>Research Interests</h3>
+                        <p><strong>Primary:</strong> Time Series Econometrics, Quantile Regression, Model Averaging, Machine Learning</p>
+                        <p><strong>Secondary:</strong> Macroeconomic Forecasting, Financial Economics, Health Economics</p>
+                    </div>
+
+                    <div class="committee">
+                        <h3>Dissertation Committee</h3>
+                        <p>Professor Zhongwen Liang (Chair), Professor Kajal Lahiri (Co-Chair), Professor Ulrich Hounyo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="section section-alt">
+            <div class="container">
+                <h2>Research</h2>
+
+                <div class="research-category">
+                    <h3 class="category-title">Job Market Paper</h3>
+                    <div class="paper">
+                        <h4 class="paper-title">"Time-Varying Jackknife Model Averaging for Quantile Regression"</h4>
+                        <p class="paper-authors">with Zhongwen Liang</p>
+                        <p class="paper-abstract">We propose a time-varying jackknife model averaging (TV-JMA) estimator for quantile regression that allows model averaging weights to adapt smoothly over time via local kernel estimation. A centering correction to the cross-validation criterion eliminates the bias from the non-zero conditional mean of the quantile regression error, enabling MSE-based weight selection. We establish convergence rates, asymptotic normality with diverging model dimensions, and asymptotic optimality of the selected weights under a scale-bias orthogonality condition that is automatically satisfied for median regression, pure location models, and heteroskedastic models with appropriately specified candidates. Monte Carlo simulations show that TV-JMA dominates constant-weight and constant-coefficient alternatives, with the gains increasing at tail quantiles and larger sample sizes. An empirical application to conditional quantile forecasting of excess stock returns and GDP growth-at-risk demonstrates the practical gains.</p>
+                        <div class="paper-links">
+                            <a href="#" class="paper-link">[Paper]</a>
+                            <!-- <a href="#" class="paper-link">[Slides]</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-category">
+                    <h3 class="category-title">Working Papers</h3>
+                    <div class="paper">
+                        <h4 class="paper-title">"Time-Varying Partially Linear Quantile Regression Under α-Mixing Conditions"</h4>
+                        <div class="paper-links">
+                            <a href="#" class="paper-link">[Paper]</a>
+                        </div>
+                    </div>
+                    <div class="paper">
+                        <h4 class="paper-title">"PMI Thresholds for Economic Growth Prediction"</h4>
+                        <p class="paper-authors">with Kajal Lahiri</p>
+                        <div class="paper-links">
+                            <a href="#" class="paper-link">[Paper]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-category">
+                    <h3 class="category-title">Work in Progress</h3>
+                    <div class="paper">
+                        <h4 class="paper-title">"Conformalized Time-Varying Quantile Regression: Distribution-Free Prediction Intervals for Locally Stationary Processes"</h4>
+                    </div>
+                    <div class="paper">
+                        <h4 class="paper-title">"Jackknife Model Averaging for Partially Linear Time-Varying Coefficient Quantile Regression"</h4>
+                    </div>
+                </div>
+
+                <div class="research-category">
+                    <h3 class="category-title">Publications</h3>
+                    <div class="paper">
+                        <h4 class="paper-title">"Community Nursing on Subjective Well-Being of the Elderly: Evidence from CLASS Data"</h4>
+                        <p class="paper-authors">with Fang Jin</p>
+                        <p class="paper-journal"><em>BMC Nursing</em>, 2025, 24(1), 757.</p>
+                        <div class="paper-links">
+                            <a href="#" class="paper-link">[Paper]</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teaching Section -->
+        <section id="teaching" class="section">
+            <div class="container">
+                <h2>Teaching</h2>
+                
+                <div class="award-highlight">
+                    <p>🏆 <strong>Helen Horowitz Award</strong> for Exceptional Teaching by Graduate Students, 2024</p>
+                </div>
+
+                <div class="teaching-category">
+                    <h3>Instructor of Record</h3>
+                    <p class="institution">University at Albany, SUNY</p>
+                    
+                    <div class="course">
+                        <h4>AECO 301: Intermediate Macroeconomics</h4>
+                        <p>Summer 2023, Fall 2023 (2 sections), Spring 2024 (2 sections), Summer 2024, Fall 2024</p>
+                    </div>
+                    
+                    <div class="course">
+                        <h4>AECO 320: Economic Statistics</h4>
+                        <p>Fall 2024, Spring 2025 (2 sections)</p>
+                    </div>
+                </div>
+
+                <div class="teaching-category">
+                    <h3>Teaching Assistant</h3>
+                    <p class="institution">University at Albany, SUNY</p>
+                    
+                    <div class="course">
+                        <h4>AECO 405/505: Game Theory</h4>
+                        <p>Professor Rui Zhao | Fall 2021, Spring 2022, Spring 2023</p>
+                    </div>
+                    
+                    <div class="course">
+                        <h4>AECO 300: Intermediate Microeconomics</h4>
+                        <p>Professor Rui Zhao | Fall 2021, Spring 2022, Spring 2023</p>
+                    </div>
+                    
+                    <div class="course">
+                        <h4>AECO 301: Intermediate Macroeconomics</h4>
+                        <p>Professor Yue Li | Fall 2022</p>
+                    </div>
+
+                    <p class="institution" style="margin-top: 1.5rem;">Shandong University</p>
+                    
+                    <div class="course">
+                        <h4>Advanced Econometrics</h4>
+                        <p>Professor Jilin Wu | Fall 2018</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>Tao Chen | PhD Candidate in Economics | University at Albany, SUNY</p>
+                <p><a href="mailto:tchen5@albany.edu">tchen5@albany.edu</a></p>
+                <p class="footer-update">Last updated: March 2026</p>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
